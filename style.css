@@ -156,6 +156,10 @@ nav a{
     text-decoration: none;
     font-size: 1rem;
 }
+
+nav a:hover{
+  color: white;
+}
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -528,7 +532,9 @@ nav a{
     padding-bottom: 30px;
     padding-left: 5px;
 }
-
+.link:hover{
+  color: white;
+}
 
 @media (max-width: 768px) {
   .lado-a-lado {
